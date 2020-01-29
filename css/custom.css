@@ -73,5 +73,10 @@ body{
 		.container-two{
 			display:  flex;	
  justify-content: space-between;
+
+		}
+
+		.col{
+			margin-bottom: 0px;
 		}
 }
