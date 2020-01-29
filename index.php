@@ -4,12 +4,46 @@
 	<meta charset="UTF-8">
 	<title>UI</title>
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 	<div class="container-three">
 		<div class="testimonial"> <h1>	UI Design</h1>	</div>
 	</div>
+
+	 <div class="container-five">
+   		<div class="social-item"><span>
+   		<i class="fa fa-facebook" aria-hidden="true"></i>
+   		</span></div>
+   		<div class="social-item">
+   			<span>
+   				<i class="fa fa-twitter" aria-hidden="true"></i>
+   			</span>
+   		</div>
+   		<div class="social-item">
+   			<span>
+   				<i class="fa fa-youtube" aria-hidden="true"></i>
+   			</span>
+   		</div>
+   		<div class="social-item">
+   			<span>
+   				<i class="fa fa-instagram" aria-hidden="true"></i>
+   			</span>
+   		</div>
+   		<div class="social-item">
+   			<span>
+   				<i class="fa fa-linkedin" aria-hidden="true"></i>
+   			</span>
+   		</div>
+
+   		<div class="social-item">
+   			<span>
+   				<i class="fa fa-google" aria-hidden="true"></i>
+   			</span>
+   		</div>
+
+   	</div>	
 
 	
 
@@ -54,6 +88,8 @@
 				<div class="number-box"><span>7</span></div>
 				<div class="number-box"><span>8</span></div>
 	</div>
+
+
 
 </body>
 </html>

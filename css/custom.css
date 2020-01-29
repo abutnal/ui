@@ -46,10 +46,10 @@ body{
    flex-wrap: wrap;
 }
 .number-box{
-	height: 80px;
-	width: 80px;
+	/*height: 80px;
+	width: 80px;*/
 	background: #990b47;
-	/*flex-basis: 10%;*/
+	flex-basis: 10%;
 	display: flex;
 	margin-bottom: 10px;
 	/*margin: auto;*/
@@ -67,16 +67,57 @@ body{
 .col:nth-child(2){background: #cdf1c3;}
 .col:nth-child(3){background: #ccb9da;}
 
+.container-five{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1400px;
+    margin:auto 50px auto 50px;
+    flex-wrap: wrap;
+    
+}
 
+.social-item{
+	/*flex-basis: 10%;*/
+	height: 80px;
+	width: 80px;
+	background: #c0dbe2;
+	margin:auto;
+	display: flex;
+	margin-bottom: 10px;
+}
 
+.social-item span{
+  margin:auto;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 30px;
+  display: flex;
+}
+
+.social-item span i{
+  margin: auto;
+  color:#990b47;
+}
 @media (min-width: 800px) {
 		.container-two{
 			display:  flex;	
- justify-content: space-between;
+ 			justify-content: space-between;
 
 		}
 
 		.col{
 			margin-bottom: 0px;
 		}
+
+.container-five{
+	
+    margin:auto 350px auto 350px;
+}
+
+.social-item{
+	margin-bottom: 0px;
+}
+
 }
